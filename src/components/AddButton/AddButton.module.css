@@ -1,0 +1,23 @@
+.add-task-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    font-size: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    left: calc(50% - 60px);
+    bottom: 20px;
+    background-color:cadetblue;
+    cursor: pointer;
+    transition: .5s all;
+
+}
+
+.add-task-button:hover {
+    transform: scale(1.1);
+    box-shadow: -3px -3px 26px grey;
+}
